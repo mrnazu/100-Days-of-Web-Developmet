@@ -1,32 +1,18 @@
 <h1 align=center>100 Days of Web Development</h1>
 
-This course is built for beginners and experienced developers alike - choose your path to get the most out of this course
+## This course is built for beginners and experienced developers alike - choose your path to get the most out of this course
 
+# Requirements
+```
+NO prior web development or programming knowledge is required! We'll start from scratch! 
+You only need a computer or Mac to get started!
+```
 
+# What You Will Learn
 
-What you'll learn
-
-How the web works and how to get started as a web developer
-Learn web development in 100 days (optional - you can also pick a different pace)
-Build websites, web apps and web services (and understand what these "things" are)
-Build frontend user interfaces with HTML, CSS & JavaScript
-Build backend processes with NodeJS, Express & SQL + NoSQL databases
-Add advanced features like user authentication, file upload or database queries to websites
-
-Requirements
-
-    NO prior web development or programming knowledge is required! We'll start from scratch!
-    You only need a computer or Mac to get started!
-
-
-
-What You Will Learn
-
-This is a huge course, packed with content and it's the web development bootcamp we would have loved to have when we learned web development.
-
-Here's a summary of the key concepts we'll explore as part of this course:
-
-    How the web works
+## This is a huge course, packed with content and it's the web development bootcamp we would have loved to have when we learned web development.
+### Here's a summary of the key concepts we'll explore as part of this course:
+   ``` How the web works
     Core technologies: HTML, CSS & JavaScript
     Understand how HTML documents are structured and how HTML elements are used correctly
     Learn core CSS concepts like the box model, flexbox, positioning, units and much more
@@ -46,4 +32,5 @@ Here's a summary of the key concepts we'll explore as part of this course:
     Move on to more specialized, advanced concepts like building REST APIs
     Explore frontend JavaScript frameworks like Vue.js to build even more powerful web user interfaces
     And so much more - simply check out the full curriculum to get a complete list!
-# 100-Days-of-Web-Developmetn
+   ```
+# 100-Days-of-Web-Developmet by nazu
