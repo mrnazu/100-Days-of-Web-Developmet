@@ -1,4 +1,4 @@
-100 Days of Web Development
+<h1 align=center>100 Days of Web Development</h1>
 
 This course is built for beginners and experienced developers alike - choose your path to get the most out of this course
 
