@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    font-size: 40px;
+    margin: 5px;
+}
+p{
+    margin-top: 15px;
+} 
+body{
+    text-align: center;
+    background-color: rgb(165, 231, 209);
+}
+img{
+    width: 100px;
+}
+header{
+    margin: 4px;
+    padding: 4px;
+}
+header h1{
+    color: blue;
+    font-weight: bolder;
+}
+
+main{
+    background-color: rgba(71, 71, 194, 0.878);
+    text-align: left;
+    margin: 0 350px 0;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+main h2{
+    color: white;
+
+}
+main p{
+    color: rgb(195, 186, 186);
+}
+main a{
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+ol li{
+    list-style: none;
+    color: rgb(159, 159, 90);
+    font-weight: bold;
+    margin: 3px;
+}
+footer{
+    margin: 10px;
+}
+footer a{
+    background-color: rgb(227, 200, 26);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+footer p{
+    color: gray;
+    margin: 0;
+}

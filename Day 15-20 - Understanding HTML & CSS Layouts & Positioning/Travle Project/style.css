@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    width: 1300px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+#logo a{
+    padding: 20px;
+    color: rgb(224, 195, 108);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* left and right, top and bottom, Bluer and then color */ 
+}
+nav ul{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+    color: aquamarine;
+}
+nav ul li{
+    margin: 15px;
+    color: aquamarine;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(231, 255, 95);
+    font-size: 20px;
+    padding: 15px;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 7px;
+}
+nav ul li a:hover{
+    color: rgb(82, 82, 82);
+    background-color: rgb(214, 211, 19);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: aquamarine;
+}
+
+#first{
+    height: 800px;
+    background-image: url(img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#first-content{
+    width: 900px;
+    background-color: rgba(42, 41, 41, 0.522);
+    box-shadow: 2px 4px 8px rgba(32, 31, 31, 0.767);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+#first h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+
+}
+#first p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 350;
+    margin-bottom: 25px;
+}
+#first a{
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    transition: .2s;
+}
+#first a:hover{
+    background-color: rgb(180, 177, 21);
+}
+.images img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(69, 69, 67);
+    border-radius: 10px;
+    object-fit: fill;
+    
+}
+.images{
+    margin: 0 20px;
+}
+
+#images{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.images p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.images strong{
+    color: rgb(0, 100, 130);
+}
+
+#seconde h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    margin: 25px;
+}
+#seconde{
+    padding: 25px;
+    background: linear-gradient(90deg, rgba(148, 53, 53, 0.694),rgba(63, 8, 8, 0.682));
+}
+footer{
+    background: linear-gradient(70deg, rgb(44, 41, 41),rgb(52, 15, 15));
+    padding: 46px 0;
+
+} 
+footer img{
+    height: 60px;
+
+}
+footer li{
+    width: 80px;
+    height: 80px;
+    margin: 0 50px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Styling Places */
+
+.place-body{
+    background: linear-gradient(
+        30deg, 
+        rgb(77,77,77),
+        rgb(58,58,58)
+    );
+    color: rgb(68, 68, 68);
+}
+.place-header{
+    position: static;
+}
+
+.place-main .place-li .place-img{
+    width: 300px;
+    height: 26 0px;
+    object-fit: cover;
+    
+}
+
+.place-main .place-ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+
+    
+}
+li:nth-of-type(3){
+    grid-column: 1/ span 2;
+}
+li:nth-of-type(8){
+    grid-column: 1/ span 2;
+}
+.place-h2{
+    color: rgb(68, 68, 68);
+    
+}
+.place-p{
+    color: rgb(68, 68, 68);
+    font-weight: 100;
+}
+
+.place-main .place-li{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.place-a a{
+    text-decoration: none;
+    color: rgb(53, 150, 150);
+    padding: 7px;
+    transition: .3s;
+  
+}
+.place-a a:hover{
+    background-color: rgba(39, 169, 169, 0.463);
+    border-radius: 7px;
+}
+.place-div{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place-a{
+    text-align: right;
+
+}
